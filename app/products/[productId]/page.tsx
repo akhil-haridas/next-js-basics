@@ -4,7 +4,7 @@ import { useParams } from 'next/navigation'
 import React from 'react'
 
 function ProductId() {
-    const params = useParams()
+    const{ productId } = useParams()
   return (
     <div>ProductId</div>
   )
