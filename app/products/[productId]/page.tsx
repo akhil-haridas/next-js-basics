@@ -1,8 +1,15 @@
 import React from "react";
 
-function ProductId({ params }: { params: { productId: string } }) {
+type paramsType = {
+    params: {
+        productId : string
+    }
+    
+}
+
+function ProductId({ params }: paramsType) {
   console.log(params);
-  return <div>ProductId</div>;
+    return <div>ProductId { params.productId }</div>;
 }
 
 export default ProductId;
