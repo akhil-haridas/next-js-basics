@@ -6,7 +6,7 @@ import React from 'react'
 function ProductId() {
     const{ productId } = useParams()
   return (
-    <div>ProductId</div>
+      <div>{ productId }</div>
   )
 }
 
