@@ -1,10 +1,8 @@
-import React from 'react'
+import React from "react";
 
-function ProductId() {
-
-  return (
-    <div>ProductId</div>
-  )
+function ProductId({ params }: { params: { productId: string } }) {
+  console.log(params);
+  return <div>ProductId</div>;
 }
 
-export default ProductId
+export default ProductId;
