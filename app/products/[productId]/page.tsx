@@ -1,11 +1,12 @@
 import React from "react";
 
-type paramsType = {
-    params: {
-        productId : string
-    }
-    
-}
+// type paramsType = {
+//     params: {
+//         productId : string
+//     }
+// }
+
+interface paramsType { params: { productId: string } }
 
 function ProductId({ params }: paramsType) {
   console.log(params);
