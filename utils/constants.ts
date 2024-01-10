@@ -4,7 +4,7 @@ interface Product {
     price: number;
 }
 
-const products : Product[] = [
+export const products : Product[] = [
     {
         id: 0,
         name: "Google Pixel",
