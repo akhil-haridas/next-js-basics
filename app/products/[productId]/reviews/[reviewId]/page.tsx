@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function ReviewId() {
-  return (
-    <div>ReviewId</div>
-  )
+function ReviewId({
+  params,
+}: {
+  params: { producutId: string; reviewId: string };
+}) {
+  return <div>ReviewId</div>;
 }
 
-export default ReviewId
+export default ReviewId;
