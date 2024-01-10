@@ -3,9 +3,12 @@ import React from "react";
 function ReviewId({
   params,
 }: {
-  params: { producutId: string; reviewId: string };
-}) {
-  return <div>ReviewId</div>;
+  params: { productId: string; reviewId: string };
+    }) {
+    
+    const { productId, reviewId } = params
+    
+    return <div>ProductID : { productId} ReviewId : { reviewId}</div>;
 }
 
 export default ReviewId;
