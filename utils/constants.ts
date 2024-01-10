@@ -1,4 +1,10 @@
-const products = [
+interface Product {
+    id: number;
+    name: string;
+    price: number;
+}
+
+const products : Product[] = [
     {
         id: 0,
         name: "Google Pixel",
