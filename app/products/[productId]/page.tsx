@@ -1,9 +1,14 @@
 import React from 'react'
 
-function prodcutId() {
+interface paramsType {
+    params : { productId : string }
+}
+
+function ProductId({ params }: paramsType) {
+    console.log(params.productId)
   return (
-    <div>prodcutId</div>
+      <div>ProductId : { params.productId }</div>
   )
 }
 
-export default prodcutId
+export default ProductId
