@@ -1,3 +1,4 @@
+import { products } from '@/utils/constants'
 import React from 'react'
 
 interface paramsType {
@@ -9,8 +10,14 @@ function ProductId({ params }: paramsType) {
 
     const id: number = parseInt(params.productId)
     
+    const product = products[id]
+
+    
   return (
-      <div>ProductId : { params.productId }</div>
+      <div>
+          <h1 className='font-bold'>{product.name}</h1>
+          <h2 className='font-bold'>{ product.price}</h2>
+      </div>
   )
 }
 
