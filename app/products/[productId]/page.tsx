@@ -10,7 +10,7 @@ function ProductId({ params }: paramsType) {
 
     const id: number = parseInt(params.productId)
     
-    const product = products[id]
+    let product = products[id]
 
     
   return (
