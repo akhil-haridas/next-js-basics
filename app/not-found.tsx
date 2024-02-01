@@ -2,7 +2,7 @@ import React from 'react'
 
 function NotFound() {
   return (
-    <div>not-found-custom</div>
+    <div>not-found-custom-made</div>
   )
 }
 
