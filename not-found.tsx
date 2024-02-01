@@ -1,9 +1,9 @@
 import React from 'react'
 
-function not-found() {
+function NotFound() {
   return (
     <div>not-found</div>
   )
 }
 
-export default not-found
+export default NotFound
